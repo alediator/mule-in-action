@@ -15,7 +15,7 @@ import org.mule.security.*
 
 // Register required system objects
 queueManager = new TransactionalQueueManager()
-queueManager.persistenceStrategy = new MemoryPersistenceStrategy()
+// in Mule 3.2.1 isn't neccesary: queueManager.persistenceStrategy = new MemoryPersistenceStrategy()
 muleContext.registry.registerObject(MuleProperties.OBJECT_QUEUE_MANAGER, queueManager)
 muleContext.registry.registerObject(MuleProperties.OBJECT_SECURITY_MANAGER, new MuleSecurityManager())
 muleContext.registry.registerObject(MuleProperties.OBJECT_MULE_ENDPOINT_FACTORY, new DefaultEndpointFactory())

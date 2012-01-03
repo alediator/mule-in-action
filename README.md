@@ -11,3 +11,5 @@ Required configuration:
 - Maven 3
 - Mule 3.2.x
 - Build setup: MAVEN_OPTS="-Xms128m -Xmx512m -XX:MaxPermSize=256m"
+
+This branch is adapting the code to work with Mule 3.2.1
