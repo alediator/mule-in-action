@@ -15,7 +15,7 @@
 	</scm>
 
 	<properties>
-		<mule-version>3.0.1-SNAPSHOT</mule-version>
+		<mule-version>3.2.1</mule-version>
 		<spring-version>3.0.3.RELEASE</spring-version>
 	</properties>
 
@@ -26,8 +26,8 @@
 		<module>chapter04</module>
 		<module>chapter05</module>
 		<module>chapter06</module>
-		<module>chapter07</module>
-		<module>chapter08</module>
+		<!--module>chapter07</module>
+		<module>chapter08</module-->
 		<module>chapter09</module>
 		<module>chapter10</module>
 		<module>chapter11</module>
@@ -321,12 +321,12 @@
 			<dependency>
 				<groupId>org.mule.transports</groupId>
 				<artifactId>mule-transport-bpm</artifactId>
-				<version>${mule-version}</version>
+				<version>3.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mule.transports</groupId>
 				<artifactId>mule-transport-jbpm</artifactId>
-				<version>${mule-version}</version>
+				<version>3.0.1</version>
 			</dependency>
 
 			<dependency>
