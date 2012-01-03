@@ -31,6 +31,7 @@
         <configuration>
           <additionalClasspathElements>
                 <additionalClasspathElement>${basedir}/conf</additionalClasspathElement>
+                <additionalClasspathElement>${basedir}/data</additionalClasspathElement>
           </additionalClasspathElements>
         </configuration>
       </plugin>
