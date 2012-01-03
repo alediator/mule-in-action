@@ -14,4 +14,4 @@ in src/main/sql.
 
 Start the examples with the script that is relevant for your OS.
 
-
+See also ./jdbc for init database
