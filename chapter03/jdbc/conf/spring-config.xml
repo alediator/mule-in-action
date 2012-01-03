@@ -18,9 +18,11 @@
                 http://www.springframework.org/schema/util/spring-util-2.5.xsd
                 ">
 
-    <bean id="dataSource" class="org.enhydra.jdbc.standard.StandardDataSource" destroy-method="shutdown">
-        <property name="driverName" value="org.apache.derby.jdbc.EmbeddedDriver"/>
-        <property name="url" value="jdbc:derby:muleEmbeddedDB;create=true"/>
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/monitoring"/>
+        <property name="username" value="miatest"/>
+        <property name="password" value=""/>
     </bean>
 
      <bean id="jdbcTemplate"

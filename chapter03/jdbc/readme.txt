@@ -11,4 +11,18 @@ server.)
 
 Start the examples with the script that is relevant for your OS.
 
+# Simple command line create and import schema
+/jdbc$ mysqladmin -u root -p create monitoring
+jdbc$ mysql -u root -p monitoring
+[...]
+mysql> create user miatest;
+mysql> GRANT ALL ON monitoring.* TO 'miatest'@'localhost';
+[...]
+/jdbc$ mysql -u miatest -p monitoring < src/main/sql/monitoring.sql
 
+# Simple drop user and database
+jdbc$ mysql -u root -p monitoring
+[...]
+mysql> drop user miatest;
+[...]
+/jdbc$ mysqladmin drop monitoring -u root -p
