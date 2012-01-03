@@ -9,10 +9,10 @@
       xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
-       http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/3.0/mule.xsd
-       http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/3.0/mule-file.xsd
-       http://www.mulesoft.org/schema/mule/smtp http://www.mulesoft.org/schema/mule/smtp/3.0/mule-smtp.xsd
-       http://www.mulesoft.org/schema/mule/email http://www.mulesoft.org/schema/mule/email/3.0/mule-email.xsd
+       http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/3.2/mule.xsd
+       http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/3.2/mule-file.xsd
+       http://www.mulesoft.org/schema/mule/smtp http://www.mulesoft.org/schema/mule/smtp/3.2/mule-smtp.xsd
+       http://www.mulesoft.org/schema/mule/email http://www.mulesoft.org/schema/mule/email/3.2/mule-email.xsd
       ">
 
      <notifications dynamic="true">
